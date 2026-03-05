@@ -1,0 +1,25 @@
+# Build artifacts
+*.o
+*.d
+*.crf
+*.axf
+*.map
+*.lst
+*.bin
+*.hex
+*.elf
+
+# Keil/MDK local files
+*.uvguix.*
+*.uvoptx
+*.bak
+*.dep
+*.lnp
+*.sct
+
+# Tool cache/temp
+*.tmp
+*.log
+
+# VS Code local settings
+.vscode/
