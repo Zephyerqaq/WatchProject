@@ -21,9 +21,9 @@
 #include "usart.h"
 
 /* USER CODE BEGIN 0 */
-/*-------------------------------ÖØ¶¨ÒåPrintf-------------------------------------*/
+/*-------------------------------ï¿½Ø¶ï¿½ï¿½ï¿½Printf-------------------------------------*/
 #include <stdio.h>
-extern UART_HandleTypeDef huart1; //ÉùÃ÷´®¿Ú
+extern UART_HandleTypeDef huart1; //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
  
 int fputc(int ch, FILE *f)
 {
@@ -37,7 +37,7 @@ int fgetc(FILE *f)
     HAL_UART_Receive(&huart1, &ch, 1, 0xffff);
     return ch;
 }
-/*-------------------------------ÖØ¶¨ÒåPrintf-------------------------------------*/
+/*-------------------------------ï¿½Ø¶ï¿½ï¿½ï¿½Printf-------------------------------------*/
 /* USER CODE END 0 */
 
 UART_HandleTypeDef huart1;
